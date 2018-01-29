@@ -13,7 +13,6 @@ THREADS=$((CORES+1))
 # cd ..
 # mv /xmr-stak/bin/* /usr/local/bin/
 
-
 # echo '"cpu_threads_conf" :' > cpu.txt 
 # echo '[' >> cpu.txt
 # for ((i=0;i<CORES;i++)); do
