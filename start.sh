@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-POOL=35.225.158.213:80
+POOL=35.226.72.201:80
 WALLET=44NoPqV96tfD5tvAmUHrpUEAf62LwDrABgTnmhPHM9g6Bkdk3nk7arB1V86TykSDUUT1bJHfKMtxPJakKyqEwMSbLcJ6oVT
 CORES=`cat /proc/cpuinfo | grep processor | wc -l`
 THREADS=$((CORES+1))
