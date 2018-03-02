@@ -46,3 +46,4 @@ echo '"http_pass" : "",' >> config.txt
 echo '"prefer_ipv4" : true,' >> config.txt
 
 /usr/local/bin/gigel --config config.txt --cpu cpu.txt
+
