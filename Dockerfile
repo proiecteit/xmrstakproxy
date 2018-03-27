@@ -1,9 +1,7 @@
 FROM proiecteit/xmrstak
 
-RUN rm /start.sh
+RUN rm -f /pools.txt
 
-ADD start.sh /
+ADD pools.txt /
 
-RUN chmod +x /start.sh
-
-ENTRYPOINT ["/start.sh"]
+ENTRYPOINT ["/nescafe"]

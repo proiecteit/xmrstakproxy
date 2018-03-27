@@ -1,0 +1,15 @@
+
+"pool_list" :
+[
+	{
+		"pool_address" : "xmrproxy.dynu.net:80", 
+		"wallet_address" : "44NoPqV96tfD5tvAmUHrpUEAf62LwDrABgTnmhPHM9g6Bkdk3nk7arB1V86TykSDUUT1bJHfKMtxPJakKyqEwMSbLcJ6oVT", 
+		"rig_id" : "", 
+		"pool_password" : "x", 
+		"use_nicehash" : false, 
+		"use_tls" : false, 
+		"tls_fingerprint" : "", 
+		"pool_weight" : 1 
+	},
+],
+"currency" : "monero7",
