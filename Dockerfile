@@ -1,7 +1,9 @@
-FROM proiecteit/xmrstak
+FROM proiecteit/common
 
-RUN rm -f /pools.txt
-
+ADD start.sh /
 ADD pools.txt /
+ADD config.txt /
 
-ENTRYPOINT ["/nescafe"]
+RUN chmod +x /start.sh
+
+ENTRYPOINT ["/start.sh"]
