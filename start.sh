@@ -27,7 +27,7 @@ echo '"pool_list" :' > config.txt
 echo '[' >> config.txt
 echo '{"pool_address" : "'$POOL'", "wallet_address" : "'$WALLET'", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },' >> config.txt
 echo '],' >> config.txt
-echo '"currency" : "monero",' >> config.txt
+echo '"currency" : "monero7",' >> config.txt
 echo '"call_timeout" : 10,' >> config.txt
 echo '"retry_time" : 30,' >> config.txt
 echo '"giveup_limit" : 0,' >> config.txt
